@@ -38,6 +38,21 @@ Reenvío de datos vía LoRa con estructura de paquete definida.
 
 Manejo de reinicios del sensor ENS160 en caso de fallo.
 
+### 4. Interfaz gráfica en Qt para monitoreo remoto
+Aplicación de escritorio desarrollada en C++ con Qt que permite visualizar en tiempo real los datos recibidos por el módulo LoRa a través del puerto serial.
+
+Lectura y análisis de datos desde el puerto serial.
+
+Visualización textual clara de los valores ambientales actuales.
+
+Gráficas interactivas utilizando QCustomPlot para cada parámetro (temperatura, humedad, etc.).
+
+Historial de datos almacenado localmente en un archivo para seguimiento posterior.
+
+Interfaz intuitiva con posibilidad de seleccionar un parámetro y mostrar su gráfica detallada.
+
+Envío de alertas automáticas por Telegram si los valores superan umbrales definidos (temperatura elevada, alta concentración de gases, etc.).
+
 Tecnologías y librerías usadas
 ESP32 como microcontrolador principal.
 
