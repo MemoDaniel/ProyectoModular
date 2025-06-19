@@ -1,5 +1,5 @@
-Proyecto: Sistema de Monitoreo Ambiental con ESP32 y LoRa
-Descripción general
+/Proyecto: Sistema de Monitoreo Ambiental con ESP32 y LoRa
+/Descripción general
 Este proyecto consiste en un sistema de monitoreo ambiental distribuido, que utiliza microcontroladores ESP32 para medir parámetros ambientales mediante sensores y transmitir los datos a través de tecnología LoRa para comunicación de largo alcance. Además, cuenta con visualización local de los datos en pantalla OLED.
 
 El sistema está diseñado para monitorear variables como temperatura, humedad, presión, resistencia de gas, CO2, compuestos orgánicos volátiles (TVOC) y calidad del aire (AQI), ideal para aplicaciones en zonas protegidas, agricultura, o control ambiental remoto.
